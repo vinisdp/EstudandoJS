@@ -49,3 +49,18 @@ for(let i in objeto) {
 for(let i of array) {
     console.log(i);
 }
+
+//while
+var a = 0;
+while(a <= 10)
+{
+    a++;
+    console.log(a);
+}
+
+//do while
+a=0;
+do{
+    a++;
+    console.log(a);
+}while(a <= 10);

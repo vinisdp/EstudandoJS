@@ -47,3 +47,11 @@ console.log(objeto);
 
 //como acessar valores
 console.log(objeto.nome, objeto.idade);
+
+// desistruturação 
+/*var nome = objeto.nome;
+var idade = objeto.idade;
+console.log(nome, idade);*/
+
+var {nome, idade} = objeto;
+console.log(nome, idade);
